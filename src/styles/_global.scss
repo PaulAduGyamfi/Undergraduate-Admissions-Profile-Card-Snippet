@@ -1,0 +1,20 @@
+.Undergraduate-Admissions-Profile-Card-Snippet{
+    * {
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none;
+    }
+
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,50 @@
+@use './global';
+
+
+.Undergraduate-Admissions-Profile-Card-Snippet-Container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: orangered;
+        align-items: center;
+        justify-content: center;
+                .Undergraduate-Admissions-Profile-Card-Snippet-CardWrapper{
+                        position: relative;
+                    .Undergraduate-Admissions-Profile-Card-Snippet-Card{
+                        height: 22.063em;
+                        width: 18.250em;
+                        margin: 1em;
+                        background-color: mediumvioletred;
+                        background-position: 50% 50%;
+                        background-size: cover;
+                        position: relative;
+                
+                        .Undergraduate-Admissions-Profile-Card-Snippet-Card-Bottom{
+                            background-color: maroon;
+                            position: absolute;
+                            width: 100%;
+                            bottom: 0;
+                            height: 6.688em;
+                            border-top: 2.25px solid #ffffff;
+                        }
+                
+                    }
+
+                    .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay{
+                        background-color: yellow;
+                        height: 22.063em;
+                        width: 18.250em;
+                        top: 1em;
+                        left: 1em;
+                        opacity: 0;
+                        transition: .5s ease;
+                        position: absolute;
+                    }
+
+                    &:hover .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay{
+                            opacity: 1;
+                    }
+                }
+    
+
+}
