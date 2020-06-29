@@ -13,14 +13,18 @@ const createCardModel = (cardObj) => {
                             </div>
                         </div>
                     </div>
-                    <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay">
+                  
+             </div>
+             <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Wrap">
+                        
+             </div>
+             <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay">
                             <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content">
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Name">${cardObj.cardName}</div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Email">${cardObj.cardOverlayEmail}</div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Body"><p>${cardObj.cardOverlayText}</p></div>
                             </div>
-                    </div>
-             </div>
+                        </div>
     
     
     `;
