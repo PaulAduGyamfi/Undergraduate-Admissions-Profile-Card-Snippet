@@ -16,7 +16,17 @@ const cardMaker = ({
 
     const card = UndergraduateAdmissionsCard();
     
-    if(isDefined(imageUrl)) card.withImageUrl(imageUrl)
+    if(isDefined(imageUrl)){
+       if(imageUrl == ""){
+         card.withImageUrl('https://groovespotimages.s3.us-east-2.amazonaws.com/profile-img.png')
+       }
+       if(imageUrl != ""){
+          card.withImageUrl(imageUrl)
+       }
+       
+    }
+    
+
     if(isDefined(cardName)) card.withCardName(cardName)
     if(isDefined(cardFrontJob)) card.withCardFrontJob(cardFrontJob)
     if(isDefined(cardFrontLocation)) card.withCardFrontLocation(cardFrontLocation)

@@ -5,7 +5,7 @@ import createCardModel from './cardModel'
 
 
 cardMaker({
-    imageUrl:'https://cdn.vox-cdn.com/thumbor/ZbHT_HB51FBfJDn7mVkEOal3sHQ=/0x54:3047x2085/1200x800/filters:focal(0x54:3047x2085)/cdn.vox-cdn.com/uploads/chorus_image/image/30109923/20130215_mje_aw8_487.0.jpg',
+    imageUrl:'',
     cardName:'Marianna Angland',
     cardFrontJob:'Assistant Director of Enrollment Operations',
     cardFrontLocation:'New York',
@@ -37,7 +37,7 @@ cardMaker({
     cardOverlayText:`Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates voluptatum quis, placeat quam necessitatibus, exercitationem quasi qui numquam accusantium nihil non ut, autem hic natus omnis dolore quidem dolorem. Blanditiis repellendus consectetur nostrum, aut cum eum reprehenderit fugiat tempora aliquam, suscipit in officiis omnis modi ratione non soluta eaque aspernatur temporibus pariatur eos quia eveniet.`
   })
   cardMaker({
-    imageUrl:'https://cdn.vox-cdn.com/thumbor/ZbHT_HB51FBfJDn7mVkEOal3sHQ=/0x54:3047x2085/1200x800/filters:focal(0x54:3047x2085)/cdn.vox-cdn.com/uploads/chorus_image/image/30109923/20130215_mje_aw8_487.0.jpg',
+    imageUrl:'',
     cardName:'Vin Angland',
     cardFrontJob:'Assistant Director of Enrollment Operations',
     cardFrontLocation:'New York',
