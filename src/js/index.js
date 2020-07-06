@@ -4,6 +4,24 @@ import createCardModel from './cardModel'
 
 
 
+
+// counselorOverlayArray.forEach( s => {
+//   cardMaker({
+//     imageUrl:s[0].trim(),
+//     cardName:s[1].trim(),
+//     cardFrontJob:s[2].trim(),
+//     cardFrontLocation:s[3].trim(),
+//     cardOverlayEmail:s[4].trim(),
+//     cardOverlayText:s[5].trim()
+//     })
+//   })
+
+
+
+
+
+
+
 cardMaker({
     imageUrl:'',
     cardName:'Marianna Angland',
@@ -66,15 +84,15 @@ cardMaker({
 
 
 
-
+  let cards = ``
   let UndergraduateAdmissionsProfileCardSnippetContainer = document.querySelector('#Undergraduate-Admissions-Profile-Card-Snippet #Undergraduate-Admissions-Profile-Card-Snippet-Container')
   
   cardArray.map(item => createCardModel(item))
   .forEach(card => {
-    UndergraduateAdmissionsProfileCardSnippetContainer.innerHTML += card
+      cards += card
   })
 
-
+  UndergraduateAdmissionsProfileCardSnippetContainer.innerHTML += cards
 
 let cardWrap = document.querySelectorAll('.Undergraduate-Admissions-Profile-Card-Snippet-CardWrapper')
 let overlayWrap = document.querySelectorAll('.Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay')

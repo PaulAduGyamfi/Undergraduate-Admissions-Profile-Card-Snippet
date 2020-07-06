@@ -71,7 +71,7 @@
                     z-index: 1;
                     background-color: rgba(0, 0, 0, 0.555);
                     height: 100%;
-                    width: 100%;
+                    width: 100vw;
                     display: none;
                     position: absolute;
                     cursor: pointer;
@@ -93,9 +93,8 @@
                 .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay{
                     background-color: #ffffff;
                     height: 22em;
-                    width: 25em;
-                    top: 20%;
-                    left: 40%;
+                    width: 50%;
+                    margin: 0 auto;
                     display: none;
                     transition: .5s ease;
                     position: absolute;
@@ -138,4 +137,10 @@
 
 }
 
+@media only screen  
+  and (max-device-width: 568px){
+      .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay{
+        width: 85% !important;
+      }
+  }
 
