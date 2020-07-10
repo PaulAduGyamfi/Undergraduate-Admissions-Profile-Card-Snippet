@@ -73,8 +73,9 @@
                     height: 100%;
                     width: 100vw;
                     display: none;
-                    position: absolute;
+                    position: fixed;
                     cursor: pointer;
+                    top: 0;
                     
                 }
                 @keyframes bounceIn {
@@ -97,10 +98,11 @@
                     margin: 0 auto;
                     display: none;
                     transition: .5s ease;
-                    position: absolute;
+                    position: fixed;
                     border: 2px solid #990000;
                     z-index: 99;
                     animation: bounceIn 1s;
+                    top: 30%;
 
                     .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content{
                         display: flex;
