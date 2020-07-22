@@ -20,6 +20,7 @@ const createCardModel = (cardObj) => {
              </div>
              <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay">
                             <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content">
+                                <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Image" style="background-image:url('${cardObj.imageUrl}')"></div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Name">${cardObj.cardName}</div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Email">${cardObj.cardOverlayEmail}</div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Body"><p>${cardObj.cardOverlayText}</p></div>
