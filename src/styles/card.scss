@@ -9,6 +9,26 @@
         align-items: center;
         justify-content: center;
 
+
+       
+
+        #exit-div{
+            position: absolute;
+           bottom: 1em;
+            height: 2em;
+            width: 2em;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover{
+                fill: #990000;
+            }
+        }
+.Undergraduate-Admissions-Profile-Card-Snippet-Card-Image{
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+}
         
                 .Undergraduate-Admissions-Profile-Card-Snippet-CardWrapper{
                         position: relative;
@@ -35,6 +55,7 @@
                             background-color: #990000;
                             position: absolute;
                             width: 100%;
+                            height: 30%;
                             bottom: 0;
                             height: 6.688em;
                             border-top: 2.25px solid #ffffff;
@@ -50,6 +71,7 @@
                                     .Undergraduate-Admissions-Profile-Card-Snippet-Card-Bottom-Caption-Name{
                                         font-weight: 800;
                                         text-transform: uppercase;
+                                        
                                     }
                                     .Undergraduate-Admissions-Profile-Card-Snippet-Card-Bottom-Caption-Job{
                                         font-size: 0.8em;
@@ -143,16 +165,20 @@
                             text-transform: uppercase;
                             color: #990000;
                             margin: 0.5em;
+                            padding-top: 3em;
                         }
                         .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Email{
                             font-weight: 800;
                             font-size: 0.8em;
+                            margin-bottom: 0.7em;
                         }
                         .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Body{
-                            padding-top: 3.5em;
-                            overflow: hidden;
+                           
+                            overflow-y: auto;
                             text-overflow: ellipsis;
                             font-size: 0.9em;
+                            height: 56%;
+                            
                             
                         }
                     }
@@ -167,6 +193,9 @@
 
 }
 
+
+
+
 .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay .active{
     left: 50%;
     transform: translate(-50%, 0);
@@ -178,13 +207,26 @@
         width: 85% !important;
         max-height: 25em !important;
         .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content{
-            padding-top: 3.5em !important;
+            padding-top: 1.5em !important;
 
             .Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Body{
                 text-align: center;
+                overflow-y: auto;
+                height: 56%;
             }
 
+        }
+        .Undergraduate-Admissions-Profile-Card-Snippet-Container #exit-div {
+            position: absolute;
+            bottom: -1em;
+            margin-right: 2em;
+            
         }
       }
   }
 
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
