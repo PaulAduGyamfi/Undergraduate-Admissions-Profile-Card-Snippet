@@ -27,7 +27,7 @@ const createCardModel = (cardObj) => {
                             <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content">
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Image" style="background-image:url('${cardObj.imageUrl}')"></div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Name">${cardObj.cardName}</div>
-                                <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Email">${cardObj.cardOverlayEmail}</div>
+                                <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Email"><a href="mailto:${cardObj.cardOverlayEmail}">${cardObj.cardOverlayEmail}</a></div>
                                 <div class="Undergraduate-Admissions-Profile-Card-Snippet-Card-Overlay-Content-Body"><p>${cardObj.cardOverlayText}</p></div>
                                 <div id="exit-div">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
