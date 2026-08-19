@@ -1,5 +1,7 @@
 # Undergraduate Admissions Profile Card Snippet
 
+https://www.stonybrook.edu/undergraduate-admissions/contact/meet-the-team.php
+
 A frontend component built for Stony Brook University's Admissions website during a Software Engineer internship with the Dept. of Communication & Marketing.
 
 ## What This Project Accomplished
